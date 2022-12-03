@@ -1,0 +1,42 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "description": "Just a minimal generic template repository",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NekkoDroid/Template.git"
+  },
+  "author": "NekkoDroid",
+  "license": "Unlicense",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/NekkoDroid/Template/issues"
+  },
+  "homepage": "https://github.com/NekkoDroid/Template#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "header-max-length": [
+        2,
+        "always",
+        50
+      ],
+      "body-max-line-length": [
+        2,
+        "always",
+        72
+      ],
+      "footer-max-line-length": [
+        2,
+        "always",
+        72
+      ]
+    }
+  }
+}

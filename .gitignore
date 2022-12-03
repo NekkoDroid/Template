@@ -1,0 +1,21 @@
+# Created by https://www.toptal.com/developers/gitignore/api/diff,patch
+# Edit at https://www.toptal.com/developers/gitignore?templates=diff,patch
+#### MODIFIED ####
+
+### Diff ###
+*.patch
+*.diff
+
+### Patch ###
+*.orig
+*.rej
+
+### Node.js ###
+node_modules/
+
+### Other stuff ###
+
+# User-specific files
+*.user
+
+# End of https://www.toptal.com/developers/gitignore/api/diff,patch
