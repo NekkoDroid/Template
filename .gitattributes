@@ -26,6 +26,8 @@
 
 # Serialization
 *.json     text
+*.jsonc    text
+*.json5    text
 *.toml     text
 *.xml      text
 *.yaml     text
